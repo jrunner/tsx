@@ -6,6 +6,6 @@ package com.t2t.tsx
 object HelloWorld {
 
   def main(args: Array[String]) {
-    println("hello world")
+    println("hello world!")
   }
 }
