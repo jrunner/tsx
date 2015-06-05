@@ -7,9 +7,10 @@
     <name>${project.artifactId}</name>
 
     <parent>
-        <artifactId>tsx-parent</artifactId>
         <groupId>com.t2t.tsx</groupId>
-        <version>1.0.0-SNAPSHOT</version>
+        <artifactId>tsx-parent</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+        <relativePath>../tsx-parent/pom.xml</relativePath>
     </parent>
 
     <properties>
@@ -17,9 +18,6 @@
         <hbase.version>0.98.0-hadoop2</hbase.version>
         <spark.version>1.2.0</spark.version>
     </properties>
-
-    <repositories>
-    </repositories>
 
     <dependencies>
         <!-- mysql -->
@@ -98,27 +96,6 @@
             <scope>provided</scope>
         </dependency>
         <!-- spark # -->
-
-        <!-- scala -->
-        <dependency>
-            <groupId>org.scala-lang</groupId>
-            <artifactId>scala-library</artifactId>
-            <version>${scala.version}</version>
-            <scope>provided</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.scala-lang</groupId>
-            <artifactId>scala-actors</artifactId>
-            <version>${scala.version}</version>
-            <scope>provided</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.scala-lang</groupId>
-            <artifactId>scala-reflect</artifactId>
-            <version>${scala.version}</version>
-            <scope>provided</scope>
-        </dependency>
-        <!-- scala # -->
 
         <!-- hbase -->
         <dependency>
@@ -278,6 +255,7 @@
     </dependencies>
 
     <build>
+        <plugins>
             <!-- 打包jar文件时，配置manifest文件，加入lib包的jar依赖 -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>

@@ -7,9 +7,10 @@
     <name>${project.artifactId}</name>
 
     <parent>
-        <artifactId>top-parent</artifactId>
-        <groupId>com.dmis.top</groupId>
-        <version>1.0.0-SNAPSHOT</version>
+        <groupId>com.t2t.tsx</groupId>
+        <artifactId>tsx-parent</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+        <relativePath>../tsx-parent/pom.xml</relativePath>
     </parent>
 
     <properties>
