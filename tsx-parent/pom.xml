@@ -10,6 +10,7 @@
     <name>${project.artifactId}</name>
 
     <modules>
+        <module>../tsx-entity</module>
         <module>../tsx-import</module>
     </modules>
 
