@@ -99,6 +99,7 @@ under the License.
     <modules> 
       <!-- module filepath="$$PROJECT_DIR$$/${pom.artifactId}.iml"/ -->  
       <module filepath="$PROJECT_DIR$/tsx-parent.iml"/>
+      <module filepath="$PROJECT_DIR$/../tsx-entity/tsx-entity.iml"/>
       <module filepath="$PROJECT_DIR$/../tsx-import/tsx-import.iml"/>
     </modules> 
   </component>  

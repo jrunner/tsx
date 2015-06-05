@@ -12,7 +12,7 @@
 			<fileMode>755</fileMode>
 		</file>
 		<file>
-			<source>readme.txt</source>
+			<source>README.md</source>
 			<outputDirectory>doc</outputDirectory>
 			<fileMode>755</fileMode>
 		</file>
