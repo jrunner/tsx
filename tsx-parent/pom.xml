@@ -12,6 +12,7 @@
     <modules>
         <module>../tsx-entity</module>
         <module>../tsx-import</module>
+        <module>../tsx-streaming</module>
     </modules>
 
     <properties>
