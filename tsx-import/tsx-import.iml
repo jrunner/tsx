@@ -222,6 +222,11 @@
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.scala-lang:scala-library:2.10.4" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.scala-lang:scala-actors:2.10.4" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.scala-lang:scala-reflect:2.10.4" level="project" />
-    <orderEntry type="library" name="scala-sdk-2.10.4" level="project" />
+  </component>
+  <component name="PackageRequirementsSettings">
+    <option name="requirementsPath" value="" />
+  </component>
+  <component name="TestRunnerService">
+    <option name="PROJECT_TEST_RUNNER" value="Unittests" />
   </component>
 </module>
