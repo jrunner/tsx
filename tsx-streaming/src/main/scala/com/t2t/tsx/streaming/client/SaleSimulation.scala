@@ -15,7 +15,8 @@ import scala.io.Source
       也可以修改classpath，注意每个jar包用空格隔开，如：
       /app/scala2104/lib/scala-swing.jar /app/scala2104/lib/scala-library.jar /app/scala2104/lib/scala-actors.jar
 测试：java -cp tsx-streaming.jar com.t2t.tsx.streaming.client.SaleSimulation /home/mmicky/data/spark/people.txt 9999 1000
-  */
+  参数：D:/tmp/data/data.txt 10110 1000
+*/
 object SaleSimulation {
   def index(length: Int) = {
     import java.util.Random

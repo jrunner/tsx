@@ -11,8 +11,8 @@ import org.apache.spark.streaming.{Time, Seconds, StreamingContext}
 import org.apache.spark.streaming.StreamingContext._
 
 /**
- * ypf
- * 来自网络数据测试
+ * title：Hdfs文件演示
+ * auther：ypf
  * 测试时间：2015-01-02
  * 测试结果：ok
  */

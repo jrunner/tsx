@@ -6,8 +6,8 @@ import org.apache.spark.streaming.StreamingContext._
 import org.apache.spark.storage.StorageLevel
 
 /**
- * ypf
- * 来自网络数据测试
+ * title：网络数据演示
+ * auther：ypf
  * 测试时间：2015-01-02
  * 测试结果：ok
  * 参数：127.0.0.1 10110
