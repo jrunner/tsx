@@ -19,6 +19,8 @@ import org.apache.spark.streaming.StreamingContext._
 object HdfsWordCount {
 
   def main(args: Array[String]) {
+    println("参数：" + args.mkString("\t"))
+
     val sparkConf = new SparkConf().setAppName("HdfsWordCount").setMaster("local[2]")
     // Create the context
     val ssc = new StreamingContext(sparkConf, Seconds(20))
