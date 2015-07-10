@@ -15,6 +15,8 @@ object StatefulWordCount {
 
   def main(args: Array[String]) {
 
+    println("参数：" + args.mkString("\t"))
+
     val updateFunc = (values: Seq[Int], state: Option[Int]) => {
       val currentCount = values.foldLeft(0)(_ + _)
       val previousCount = state.getOrElse(0)

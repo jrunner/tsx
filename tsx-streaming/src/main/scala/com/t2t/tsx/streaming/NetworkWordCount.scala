@@ -13,7 +13,10 @@ import org.apache.spark.storage.StorageLevel
  * 参数：127.0.0.1 10110
  */
 object NetworkWordCount {
+
   def main(args: Array[String]) {
+    println("参数：" + args.mkString("\t"))
+
     val conf = new SparkConf().setAppName("NetworkWordCount").setMaster("local[2]")
     val sc = new SparkContext(conf)
     val ssc = new StreamingContext(sc, Seconds(5))
